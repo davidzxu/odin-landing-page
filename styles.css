@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../../../../../usr/share/fonts/truetype/roboto/unhinted/RobotoTTF/Roboto-Regular.ttf');
+} 
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 36px;
+    border-radius: 12px;
+}
+
+.top-button {
+    margin-right: auto;
+    border-color: #3882F6;
+}
+
+.bottom-button {
+    border-color: #F9FAF8;
+    font-weight: 700;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    padding: 24px 300px;
+}
+
+.header-logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.misc-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.first-section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 300px;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.container {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 72px;
+    gap: 72px;
+    margin-bottom: 96px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 96px;
+}
+
+.information-header-text {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.image-small-containers {
+    width: 200px;
+    text-align: center;
+    color: #6d747d;
+    font-size: 18px;
+}
+
+.big-image {
+    width: 700px;
+}
+
+.small-images {
+    border: 4px solid #3882F6;
+    width: 200px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+    padding: 120px 540px;
+    color: #1f2937;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    margin-right: 36px;
+}
+
+.fourth-section {
+    background-color: #3882F6;
+    margin: 96px 300px;
+    padding: 60px;
+    border-radius: 12px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    gap: 360px;
+}
+
+.call-to-action {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.sign-up-message {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 48px;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
+}
